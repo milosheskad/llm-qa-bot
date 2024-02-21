@@ -53,6 +53,4 @@ class MarkdownHandler(object):
             chroma = Chroma.from_documents(documents, self.bedrock_embeddings, persist_directory=self.persist_directory)
         else:
             chroma = Chroma(persist_directory=self.persist_directory, embedding_function=self.bedrock_embeddings)
-        #use this to delete chroma_db
-        #shutil.rmtree('./chroma_db/txt_db')
         return chroma
