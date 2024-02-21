@@ -17,7 +17,7 @@ def main():
         st.title("Create/Update Vector Store:")
         if st.button("Vectors Update"):
             with st.spinner("Processing..."):
-                MarkdownHandler().load_documentation_folder('data_example')
+                MarkdownHandler().load_documentation_folder('data')
                 st.success("Done")
 
     if st.button("Llama2 Output"):
@@ -30,7 +30,7 @@ def main():
                 source = i.metadata.get('source')
                 source_list.append(source)
             st.write(response)
-            st.title("Here are the relevant documents:")
+            st.text("Here are the relevant documents:")
             st.write(source_list)
             st.success("Done")
 
