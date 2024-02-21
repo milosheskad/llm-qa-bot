@@ -22,10 +22,10 @@ Then you can open http://localhost:8501 on your web browser.
 
 ### Application Screenshots
 Here are some captures from where example questions are asked and their corresponding answers.
-![alt text](\images\What_is_Sagemaker.png)
+![Image 1](images/What_is_Sagemaker.png)
 
-![alt text](\images\regions.png)
+![Image 2](images/regions.png)
 
-![alt text](\images\KMS.png)
+![Image 3](images/KMS.png)
 
-![alt text](\images\Geospatial.png)
+![Image 4](images/Geospatial.png)
